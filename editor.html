@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
+
+</head>
+
+<body class="bg">
+  <div id="app">
+    <div class="invite-client">
+      <div class="own-video">
+        <img src="img/own-video.svg" class=" w-100" alt="">
+      </div>
+      <div>
+        <div class="client-video">
+          <img src="img/client-video.svg" alt="">
+        </div>
+        <div class="slidecontainer">
+          <input type="range" min="1" max="100" value="50" class="slider2" id="myRange">
+
+        </div>
+      </div>
+      <div class="right-menu">
+        <div class="editor-menu">
+          <div class="editor-menu-item active-editor bg2">
+            <img src="img/chat.svg" alt="">
+            <img src="img/white/chat.svg" class="active-image" alt="">
+            <p>chat</p>
+          </div>
+          <div class="editor-menu-item bg2">
+            <img src="img/notes.svg" alt="">
+             <img src="img/white/notes.svg" class="active-image" alt="">
+            <p>Notes</p>
+          </div>
+          <div class="editor-menu-item bg2">
+            <img src="img/shot.svg" alt="">
+            <img src="img/white/shot.svg" class="active-image" alt="">
+            <p>Screenshot</p>
+          </div>
+          <div class="editor-menu-item bg2">
+            <img src="img/annotate.svg" alt="">
+             <img src="img/white/annotate.svg" class="active-image" alt="">
+            <p>Annotate</p>
+          </div>
+          <div class="editor-menu-item">
+            <img src="img/pause.svg" alt=""> 
+            <img src="img/white/pause.svg" class="active-image" alt="">
+            <p>Resume</p>
+          </div>
+          <div class="editor-menu-item active-editor">
+            <img src="img/mute.svg" alt="">  
+             <img src="img/white/mute.svg"  class="active-image" alt="">
+            <p>Mute</p>
+          </div>
+          <div class="editor-menu-item">
+            <img src="img/camera.svg" alt="">
+            <img src="img/white/camera.svg" class="active-image" alt="">
+            <p>Off Camera</p>
+          </div>
+          <div class="editor-menu-item">
+            <img src="img/fullscreen.svg" alt="">
+            <p>Fullscreen</p>
+          </div>
+          <div class="editor-menu-item">
+            <img src="img/exit.svg" alt="">
+            <p>Exit</p>
+          </div>
+        </div>
+      </div>
+      <div class="chat d-none">
+        <div class="chat-content">
+          <div>
+            <span>Please mute your voice</span>
+          </div>
+          <div class="mine">
+            <span>ok</span>
+          </div>
+          <div>
+            <span>Please mute your voice</span>
+          </div>
+        </div>
+        <div class="chat-type">
+          <div>
+            <textarea name="" id="" cols="" rows="1" class="form-control borde-none"></textarea>
+            <img src="img/send.png" class="send-btn" alt="">
+          </div>
+
+
+        </div>
+      </div>
+      <div class="notes d-none">
+        <div class="notes-content">
+          <p>Session Notes</p>
+          <textarea name="" id="" cols="" class="form-control height-80"></textarea>
+        </div>
+      </div>
+
+      <div class="Screenshot d-none">
+        <div class="screenshotnotbtn">
+          <div class="screen-list">
+            <img src="img/delete.png" class="delete-screenshot" alt="">
+            <img src="img/client-video.svg" alt="">
+          </div>
+          <div class="screen-list">
+            <img src="img/delete.png" class="delete-screenshot" alt="">
+            <img src="img/client-video.svg" alt="">
+          </div>
+        </div>
+        <div class="fixed-screenshot">
+          <button class="btn-form">Sceenshot</button>
+        </div>
+      </div>
+
+<div class="right-sub-menu d-none">
+  <div class="editor-menu bg-white">
+    <div class="editor-menu-item">
+      <img src="img/ar.svg" alt="">
+      <p>AR</p>
+    </div>
+    <div class="editor-menu-item">
+      <img src="img/ARROW.svg" alt="">
+      <p>Arrow</p>
+    </div>
+    <div class="editor-menu-item">
+      <img src="img/pencil.svg" alt="">
+      <p>Pencil</p>
+    </div>
+    <div class="editor-menu-item">
+      <img src="img/Rectangle.svg" alt="">
+      <p>Rectangle</p>
+    </div>
+    <div class="editor-menu-item">
+      <img src="img/Ellipse.svg" alt="">
+      <p>Ellipse</p>
+    </div>
+    <div class="editor-menu-item">
+      <img src="img/color.svg alt="">
+      <p>Color</p>
+    </div>
+    <div class="editor-menu-item">
+      <img src="img/erase.svg" alt="">
+      <p>Erase</p>
+    </div>
+    <div class="editor-menu-item">
+      <img src="img/clear.svg" alt="">
+      <p>Clear</p>
+    </div>
+  </div>
+</div>
+
+<div class="modal d-none">
+  <div class="sessio-end">
+    <h4>Confirm Exit</h4>
+    <p>Are you sure you want end session ?</p>
+    <div class="container-fluid">
+      <div class="row mt-3">
+        <div class="col">
+          <button class="btn-form white-bg-btn">Cancel</button>
+        </div>
+        <div class="col">
+          <button class="btn-form">End session</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal d-none">
+  <div class="sessio-end">
+    <h4>Save Session Video</h4>
+    <p>Are you sure you want end session ?
+
+    </p>
+    <div class="container-fluid">
+      <div class="row mt-3">
+        <div class="col">
+          <button class="btn-form white-bg-btn">Cancel</button>
+        </div>
+        <div class="col">
+          <button class="btn-form">End session</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    </div>
+
+  </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script src="js/vue-js.js"></script>
+
+</html>

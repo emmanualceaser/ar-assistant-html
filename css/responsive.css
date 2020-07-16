@@ -1,0 +1,15 @@
+@media screen and (max-width: 767px) {
+    .left-login{
+        display: none;
+    }
+  }@media screen and (max-width: 667px) {
+    .or-line::after{
+      
+    width: 150px;
+  
+    
+    }
+    .or-line::before{
+        width: 150px;
+    }
+  }

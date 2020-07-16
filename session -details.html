@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
+</head>
+
+<body>
+  <div id="app">
+    <div class="ar-menu">
+      <div class="logo">
+        <img src="img/logo.svg" class="w-100" alt="" />
+      </div>
+      <div class="menu-list">
+        <a href="home.html">
+          <div class="menu-item ">
+            <div class="menu-icon">
+              <img src="img/home.svg" alt="" />
+              <img src="img/home.png" class="menu-white" alt="">
+            </div>
+            <div class="menu-name">
+              <p>Home</p>
+            </div>
+          </div>
+        </a>
+        <a href="session -details.html">
+          <div class="menu-item active">
+            <div class="menu-icon">
+              <img src="img/session details.svg" alt="" />
+              <img src="img/session details.png" class="menu-white" alt="">
+            </div>
+            <div class="menu-name">
+              <p>Session Details</p>
+            </div>
+          </div>
+        </a>
+        <div class="menu-item">
+          <div class="menu-icon">
+            <img src="img/3d object.svg" alt="" />
+          </div>
+          <div class="menu-name">
+            <p>3D Object Recognition</p>
+          </div>
+        </div>
+        <a href="settings.html">
+          <div class="menu-item ">
+            <div class="menu-icon">
+              <img src="img/settings.svg" alt="" />
+              <img src="img/settings.png" class="menu-white" alt="">
+            </div>
+            <div class="menu-name">
+              <p>Settings</p>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+  <div class="custom-body">
+    <div class="header">
+      <div class="header-content">
+        <div class="head-item">
+          <img src="img/bell.svg" class="bell" alt="" />
+        </div>
+        <div class="head-item">
+          <div class="somthing">
+            <div>
+              <p class="static-helo">Hello !</p>
+            </div>
+            <div>
+              <p class="user-name">Ted Ellison</p>
+            </div>
+          </div>
+        </div>
+        <div class="head-item">
+          <img src="img/user.svg" class="user-img" alt="" />
+        </div>
+      </div>
+    </div>
+    <div class="content-white-box">
+      <div>
+        <h4>Session Details</h4>
+      </div>
+      <div class="session">
+        <ul class="nav nav-tabs">
+          <li class="nav-item">
+            <a class="nav-link active" data-toggle="tab" href="#home">Active Sessions</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-toggle="tab" href="#menu1">Session Details</a>
+          </li>
+        </ul>
+
+        <!-- Tab panes -->
+        <div class="tab-content">
+          <div class="tab-pane active" id="home">
+            <div>
+              <div>
+                <div class="session-list">
+                  <table class="table">
+                    <tr>
+                      <td>
+                        <p class="fs-16 f-bold mb-1">10:30 AM</p>
+                        <p class="fs-16 mb-0">JUN-17-2020</p>
+                      </td>
+                      <td>
+                        <p class="fd-16 f-bold mb-1">142-252-256</p>
+                        <p class="fs-16 mb-0">+91 95825 62356</p>
+                      </td>
+                      <td>
+                        <p class="red-italic mb-0">
+                          Waiting for the guest to join
+                        </p>
+                      </td>
+                      <td><button class="btn-form">Join Session</button></td>
+                    </tr>
+                  </table>
+                </div>
+                <div class="session-list">
+                  <table class="table">
+                    <tr>
+                      <td>
+                        <p class="fs-16 f-bold mb-1">10:30 AM</p>
+                        <p class="fs-16 mb-0">JUN-17-2020</p>
+                      </td>
+                      <td>
+                        <p class="fd-16 f-bold mb-1">142-252-256</p>
+                        <p class="fs-16 mb-0">+91 95825 62356</p>
+                      </td>
+                      <td>
+                        <p class="red-italic mb-0">
+                          Waiting for the guest to join
+                        </p>
+                      </td>
+                      <td><button class="btn-form">Join Session</button></td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="menu1">
+            <div>
+              <div class="session-search">
+                <div class="container-fluid">
+                  <div class="row">
+                    <div class="col-md-5">
+                      <div>
+                        <input type="text" class="form-control max-w-320px" placeholder="Search" />
+                      </div>
+                    </div>
+                    <div class="col-md-3">
+                      <div>
+                        <select name="" class="form-control" id="">
+                          <option value="">All Technician</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <!-- <input type="date" class="form-control" name="" id=""> -->
+                      <div id="reportrange"  class="pull-left" style="background: #fff; cursor: pointer; padding: 5px 10px; border: 1px solid #ccc;">
+                        <i class="glyphicon glyphicon-calendar fa fa-calendar"></i>&nbsp;
+                        <span></span> <b class="caret"></b>
+                    </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="session-duration">
+                <div class="container-fluid">
+                  <div class="row">
+                    <div class="col">
+                      <div class="session-duration-item">
+                        <p class="fs-16 mb-1">Total sessions</p>
+                        <p class="fs-30 mb-0 f-bold">120 <span class="fs-16 f-normal"></span></p>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="session-duration-item">
+                        <p class="fs-16 mb-1">Total sessions</p>
+                        <p class="fs-30 mb-0 f-bold">120 <span class="fs-16 f-normal"></span></p>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="session-duration-item">
+                        <p class="fs-16 mb-1">Total sessions</p>
+                        <p class="fs-30 mb-0 f-bold">120 <span class="fs-16 f-normal"></span></p>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="session-duration-item">
+                        <p class="fs-16 mb-1">Total sessions</p>
+                        <p class="fs-30 mb-0 f-bold">120 <span class="fs-16 f-normal"></span></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="session-duration-table">
+                <table class="table">
+                  <tr>
+                    <th>Session code</th>
+                    <th>Start time</th>
+                    <th>Duration</th>
+                    <th>Customer details</th>
+                    <th>Technician name</th>
+                    <th>Actions</th>
+
+                  </tr>
+                  <tr>
+                    <td>111-253-256</td>
+                    <td>Jun 4, 2020 12:29 PM</td>
+                    <td>30 Minutes</td>
+                    <td>+91 95862 53652</td>
+                    <td>Alan John</td>
+                    <!-- <td><img src="img/3dot.png" alt=""></td> -->
+                    <td>
+                      <div>
+                        <div class="table-drop float-none">
+                          <img src="img/3dot.png" alt="">
+                          <div class="table-drop-item">
+                            <div>
+                              <a @click="view_more_session=true">View more</a>
+                            </div>
+                            <div>
+                              <a>Remove</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>111-253-256</td>
+                    <td>Jun 4, 2020 12:29 PM</td>
+                    <td>30 Minutes</td>
+                    <td>+91 95862 53652</td>
+                    <td>Alan John</td>
+                    <td>
+                      <div>
+                        <div class="table-drop float-none">
+                          <img src="img/3dot.png" alt="">
+                          <div class="table-drop-item">
+                            <div>
+                              <a @click="view_more_session=true">View more</a>
+                            </div>
+                            <div>
+                              <a>Remove</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>111-253-256</td>
+                    <td>Jun 4, 2020 12:29 PM</td>
+                    <td>30 Minutes</td>
+                    <td>+91 95862 53652</td>
+                    <td>Alan John</td>
+                    <td>
+                      <div>
+                        <div class="table-drop float-none">
+                          <img src="img/3dot.png" alt="">
+                          <div class="table-drop-item">
+                            <div>
+                              <a @click="view_more_session=true">View more</a>
+                            </div>
+                            <div>
+                              <a>Remove</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal" v-if="view_more_session">
+    <div class="session-view">
+      <img src="img/modal-close.svg" class="modal-close" @click="view_more_session=false" alt="">
+      <h3>111-253-256</h3>
+      <div class="container-fluid session">
+        <div class="row">
+          <div class="col-md-5">
+            <table class="session-modal-table">
+              <tr>
+                <td><img src="img/date.svg" alt=""></td>
+                <td>Start Time</td>
+                <td>: <span>Jun 4, 2020 12:29 PM</span> </td>
+              </tr>
+              <tr>
+                <td><img src="img/time.svg" alt=""></td>
+                <td>Duration</td>
+                <td>: <span>30 Minutes</span> </td>
+              </tr>
+            </table>
+          </div>
+          <div class="col-md-5 border-left">
+            <div class="">
+              <table class="session-modal-table">
+                <tr>
+                  <td><img src="img/customer.svg" alt=""></td>
+                  <td>Customer</td>
+                  <td>: <span>+91 95685 25635</span> </td>
+                </tr>
+                <tr>
+                  <td><img src="img/repair.svg" alt=""></td>
+                  <td>Technician</td>
+                  <td>: <span>Dominic Benjamin</span> </td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div>
+        <ul class="nav nav-tabs mt-3">
+          <li class="nav-item">
+            <a class="nav-link active" data-toggle="tab" href="#session1">Session Video</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-toggle="tab" href="#session2">Screenshots</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-toggle="tab" href="#session3">Notes</a>
+          </li>
+        </ul>
+
+        <!-- Tab panes -->
+        <div class="tab-content">
+          <div class="tab-pane active" id="session1">
+            <div class="view-more-session">
+              <video autoplay="autoplay" loop="loop" muted="muted" class="w-100">
+                <source src="https://unitear.s3.ap-south-1.amazonaws.com/app_factory/videos/03_publish_app.mp4"
+                  type="video/mp4"></video>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="session2">
+            <div class="container-fluid view-more-session">
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="screen-shot">
+                    <div class="table-drop">
+                      <img src="img/3dot.png" alt="">
+                      <div class="table-drop-item">
+                        <div>
+                          <a>Download</a>
+                        </div>
+                        <div>
+                          <a>Delete</a>
+                        </div>
+                      </div>
+                    </div>
+                    <img src="img/screenshot.svg" alt="">
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="screen-shot">
+                    <div class="table-drop">
+                      <img src="img/3dot.png" alt="">
+                      <div class="table-drop-item">
+                        <div>
+                          <a>Download</a>
+                        </div>
+                        <div>
+                          <a>Delete</a>
+                        </div>
+                      </div>
+                    </div>
+                    <img src="img/screenshot.svg" alt="">
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="screen-shot">
+                    <div class="table-drop">
+                      <img src="img/3dot.png" alt="">
+                      <div class="table-drop-item">
+                        <div>
+                          <a>Download</a>
+                        </div>
+                        <div>
+                          <a>Delete</a>
+                        </div>
+                      </div>
+                    </div>
+                    <img src="img/screenshot.svg" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="session3">
+            <div class="view-more-session mt-3">
+<p>Add your notes here</p>
+            </div>
+            </div>
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/bootstrap.daterangepicker/2/daterangepicker.js"></script>
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/bootstrap.daterangepicker/2/daterangepicker.css" />
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script src="js/vue-js.js"></script>
+<script>
+  
+$(function() {
+
+var start = moment().subtract(29, 'days');
+var end = moment();
+
+function cb(start, end) {
+    $('#reportrange span').html(start.format('MMMM D, YYYY') + ' - ' + end.format('MMMM D, YYYY'));
+}
+
+$('#reportrange').daterangepicker({
+    startDate: start,
+    endDate: end,
+    ranges: {
+       'Today': [moment(), moment()],
+       'Yesterday': [moment().subtract(1, 'days'), moment().subtract(1, 'days')],
+       'Last 7 Days': [moment().subtract(6, 'days'), moment()],
+       'Last 30 Days': [moment().subtract(29, 'days'), moment()],
+       'This Month': [moment().startOf('month'), moment().endOf('month')],
+       'Last Month': [moment().subtract(1, 'month').startOf('month'), moment().subtract(1, 'month').endOf('month')]
+    }
+}, cb);
+
+cb(start, end);
+
+});
+</script>
+</html>

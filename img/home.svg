@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="26" height="26" viewBox="0 0 26 26">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_742" data-name="Rectangle 742" width="26" height="26" transform="translate(63 134.25)" fill="#505050" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="home" transform="translate(-63 -134.25)" clip-path="url(#clip-path)">
+    <g id="browser_1_" data-name="browser (1)" transform="translate(64.874 136.5)">
+      <path id="Path_1392" data-name="Path 1392" d="M57.592,205.819H42.1a2.1,2.1,0,0,1-2.1-2.1v-11.03a.729.729,0,1,1,1.458,0v11.03a.639.639,0,0,0,.638.638h15.5a.639.639,0,0,0,.638-.638v-11.03a.729.729,0,1,1,1.458,0v11.03A2.1,2.1,0,0,1,57.592,205.819Z" transform="translate(-38.177 -183.944)" fill="#505050"/>
+      <path id="Path_1393" data-name="Path 1393" d="M22.606,27.317a.727.727,0,0,1-.516-.214l-9.069-9.069a1.916,1.916,0,0,0-2.707,0L1.245,27.1A.729.729,0,1,1,.214,26.072L9.283,17a3.376,3.376,0,0,1,4.77,0l9.069,9.069a.729.729,0,0,1-.516,1.245Z" transform="translate(0 -16.017)" fill="#505050"/>
+      <path id="Path_1394" data-name="Path 1394" d="M182.563,297.463h-5.834a.729.729,0,0,1-.729-.729v-6.472a2.281,2.281,0,0,1,2.279-2.279h2.735a2.281,2.281,0,0,1,2.279,2.279v6.472A.729.729,0,0,1,182.563,297.463Zm-5.1-1.458h4.375v-5.743a.821.821,0,0,0-.82-.82h-2.735a.821.821,0,0,0-.82.82Z" transform="translate(-167.979 -275.588)" fill="#505050"/>
+    </g>
+  </g>
+</svg>

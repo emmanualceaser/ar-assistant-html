@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="22" height="22" viewBox="0 0 22 22">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_764" data-name="Rectangle 764" width="22" height="22" transform="translate(1144 277)" fill="#fff" opacity="0.55"/>
+    </clipPath>
+  </defs>
+  <g id="annotate" transform="translate(-1144 -277)" clip-path="url(#clip-path)">
+    <path id="annotate-2" data-name="annotate" d="M25.849,11.944l-7.861-7.86a.4.4,0,0,0-.566,0L5.614,15.892l0,.006L5.6,15.91l-.014.017-.011.014-.012.018-.009.015-.011.019-.007.015-.009.021-.005.015-.007.022,0,.015c0,.008,0,.016-.005.023v.005L3.971,25.5a.4.4,0,0,0,.459.459l9.391-1.531h.006l.022,0,.016,0,.021-.007.017-.006.019-.008.017-.008.016-.009.018-.011.014-.01.018-.013.013-.011.017-.015,0,0L25.849,12.51A.4.4,0,0,0,25.849,11.944ZM17.705,4.932,21.07,8.3,9.827,19.539,6.463,16.175ZM4.851,25.081,6.166,17.01l6.756,6.756Zm8.907-1.612-3.364-3.364L21.636,8.863,25,12.227Z" transform="translate(1140.034 273.034)" fill="#fff"/>
+  </g>
+</svg>

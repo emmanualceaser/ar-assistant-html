@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="22" height="22" viewBox="0 0 22 22">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_640" data-name="Rectangle 640" width="22" height="22" transform="translate(1119 46)" fill="#fff" opacity="0.55"/>
+    </clipPath>
+  </defs>
+  <g id="chat" transform="translate(-1119 -46)" clip-path="url(#clip-path)">
+    <g id="Layer_2" transform="translate(1119.49 46)">
+      <g id="Layer_3" transform="translate(0 0)">
+        <path id="Path_1401" data-name="Path 1401" d="M14.812,2.242H11.84a9.117,9.117,0,0,0,.031,18.231h8.457l3.616,3.769V11.373A9.194,9.194,0,0,0,14.812,2.242Zm8.212,19.7L20.7,19.554H11.871a8.181,8.181,0,1,1,0-16.362h2.972a8.2,8.2,0,0,1,8.181,8.181Z" transform="translate(-2.922 -2.242)" fill="#fff"/>
+        <rect id="Rectangle_756" data-name="Rectangle 756" width="10.142" height="0.919" transform="translate(5.364 6.557)" fill="#fff"/>
+        <rect id="Rectangle_757" data-name="Rectangle 757" width="10.142" height="0.919" transform="translate(5.364 10.142)" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>

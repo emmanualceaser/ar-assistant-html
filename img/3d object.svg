@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="26" height="26" viewBox="0 0 26 26">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_745" data-name="Rectangle 745" width="26" height="26" transform="translate(166 318)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="_3d_object" data-name="3d object" transform="translate(-166 -318)" clip-path="url(#clip-path)">
+    <path id="cube_1_" data-name="cube (1)" d="M11.258,0,0,6.5v13L11.258,26l11.258-6.5V6.5Zm8.964,6.939-8.964,5.175L2.295,6.939l8.964-5.175ZM1.528,8.261l8.967,5.177V23.795L1.528,18.618ZM12.022,23.795V13.438l8.967-5.177V18.618Zm0,0" transform="translate(167.742 318)" fill="#505050"/>
+  </g>
+</svg>

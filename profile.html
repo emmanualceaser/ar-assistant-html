@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
+
+</head>
+
+<body>
+  <div id="app">
+    <div class="ar-menu">
+      <div class="logo">
+        <img src="img/logo.svg" class="w-100" alt="" />
+      </div>
+      <div class="menu-list">
+        <a href="home.html">
+          <div class="menu-item active">
+            <div class="menu-icon">
+              <img src="img/home.svg" alt="" />
+              <img src="img/home.png" class="menu-white" alt="">
+            </div>
+            <div class="menu-name">
+              <p>Home</p>
+            </div>
+          </div>
+        </a>
+        <a href="session -details.html">
+          <div class="menu-item ">
+            <div class="menu-icon">
+              <img src="img/session details.svg" alt="" />
+              <img src="img/session details.png" class="menu-white" alt="">
+            </div>
+            <div class="menu-name">
+              <p>Session Details</p>
+            </div>
+          </div>
+        </a>
+        <div class="menu-item">
+          <div class="menu-icon">
+            <img src="img/3d object.svg" alt="" />
+          </div>
+          <div class="menu-name">
+            <p>3D Object Recognition</p>
+          </div>
+        </div>
+        <a href="settings.html">
+          <div class="menu-item ">
+            <div class="menu-icon">
+              <img src="img/settings.svg" alt="" />
+              <img src="img/settings.png" class="menu-white" alt="">
+            </div>
+            <div class="menu-name">
+              <p>Settings</p>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="custom-body">
+      <div class="header">
+        <div class="header-content">
+          <div class="head-item">
+            <img src="img/bell.svg" class="bell" alt="" @click="notification_bell =!notification_bell" />
+            <div class="drop-head-menu" :class="{ d_none: notification_bell, }">
+              <div style="display: none;">
+                <a href="#" class="drop-head-menu-item">A new notification is here</a>
+                <a href="#" class="drop-head-menu-item" >password has Changed </a>
+                
+               
+              </div>
+              <div class="no-noty">
+                <div>
+                  <img src="img/notification.png" alt="">
+                  <p>No notification</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="head-item">
+            <div class="somthing">
+              <div>
+                <p class="static-helo">Hello !</p>
+              </div>
+              <div>
+                <p class="user-name">Ted Ellison</p>
+              </div>
+            </div>
+          </div>
+          <div class="head-item">
+            <img src="img/user.svg" class="user-img" @click="drop_head_menu =!drop_head_menu" alt="" />
+            <div class="drop-head-menu" :class="{ d_none: drop_head_menu, }">
+              <div>
+                <a href="#" class="drop-head-menu-item">My Profile</a>
+                <a href="#" class="drop-head-menu-item" @click="changePassword=true">Change Password</a>
+                <a href="#" class="drop-head-menu-item border-none">Help</a>
+                <a href="#" class="logout">logout</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="content-white-box profile-width">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="user-dp mt-3">
+                <img src="img/user-dp.png" alt="">
+
+              </div>
+            </div>
+            <div class="col-md-8">
+              <div class="">
+                <div class="login-input">
+                  <p>Full Name</p>
+                  <input type="text" class="form-control" name="" id="">
+                </div>
+                <div class="login-input">
+                  <p>Company Name</p>
+                  <input type="text" class="form-control" name="" id="">
+                </div>
+                <div class="login-input">
+                  <p>Email</p>
+                  <input type="text" class="form-control" name="" id="">
+                </div>
+                <div class="login-input">
+                  <p>Mobile</p>
+                  <input type="text" class="form-control" name="" id="">
+                </div>
+                <div class="login-input mt-3">
+                  <button class="btn-form">Save Changes</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+    </div>
+ 
+
+
+
+  <div class="modal" v-if="changePassword">
+    <div class="password-change">
+      <img src="img/modal-close.svg" @click="changePassword=false" class="modal-close" alt="">
+      <div>
+        <p class="f-bold">Change Password</p>
+        <hr>
+        <div class="login-input">
+          <p>Current Password</p>
+          <input type="text" class="form-control" name="" id="">
+        </div>
+        <div class="login-input">
+          <p>New Password</p>
+          <input type="text" class="form-control" name="" id="">
+        </div>
+        <div class="login-input">
+          <p>Confirm New Password</p>
+          <input type="text" class="form-control" name="" id="">
+        </div>
+        <div class="login-input mt-3">
+          <button class="btn-form">Save Changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script src="js/vue-js.js"></script>
+
+</html>
